@@ -1,11 +1,11 @@
 # Python-Implementation-of-Zero-Knowledge-Proof
 Several scripts have been developed to implement a demonstration of a Zero Knowledge Proof (ZKP), using the Feige-Fiat-Shamir Identifcation Protocol.
 
-The implementation provided is a simplified version of the Feige-Fiat-Shamir Identification Protocol. This protocol is used to prove that Person A is who they say they are, without revealing any information about Person A.
+The implementation provided is a simplified version of the Feige-Fiat-Shamir Identification Protocol. This protocol is used to prove that Person A is who they say they are, without revealing any information about Person A (Schneier 2015).
 
 The protocol consists of three parties, being the Trusted Third Party, Person A, and Person B.
 
-The Trusted Third Party decides on the key details for how to perform the proof. The Trusted Third Party is independent of both the prover (person convincing the other person of their identity, or knowledge of a secret), and the verifier (person who is verifying that Person A is who they say they are, or knows a particular secret).
+The Trusted Third Party decides on the key details for how to perform the proof. The Trusted Third Party is independent of both the prover (person convincing the other person of their identity, or knowledge of a secret), and the verifier (person who is verifying that Person A is who they say they are, or knows a particular secret) (Mollin 2001).
 
 Person A (prover) wishes to prove their identity, or knowledge of a secret, without revealing any information. This could be achieved through providing small bits of information from an ID card provided by the Trusted Third Party. The bits of information will be able to prove that Person A is who they say they are, but the verifier (Person B), will not be able to obtain any information about the ID card, such as the card number.
 
@@ -33,8 +33,6 @@ The inspiration to complete this project came from studying a unit of Cryptograp
 ********Warning: This program is for educational purposes only. This implementation should not be used in real applications, and is just for education/demonstration, as it is insecure.********
 
 References: 
+Schneier B (2015) 'Identification Schemes', Applied Cryptography: Protocols, Algorithms and Source Code in C, 20th Anniversary Edition, Wiley, Indianapolis, US
 
-Applied Cryptography: Protocols, Algorithms and Source Code in C, 20th Anniversary Edition - Bruce Schneier
-https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/31_chap21.html#chap21
-
-An Introduction to Cryptography, by Richard A. Mollin.
+Mollin R (2001) '6.2 Zero-Knowledge', An Introduction to Cryptography, Chapman & Hall/CRC, US
