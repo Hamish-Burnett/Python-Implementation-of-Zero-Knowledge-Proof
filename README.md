@@ -30,9 +30,7 @@ There are two main sections in the Prover and Verifier scripts, being the Setup 
 The inspiration to complete this project came from studying a unit of Cryptography. During the course of the unit, there was a small section in the textbook on Zero Knowledge Proofs. The Cryptography unit was largly focused on understanding the maths behind cryptography, and so this topic was largly not covered. I found this topic interesting, and after completing the unit, I decided to create a simple implementation of a Zero Knowledge Proof for fun, to see both how it works, and the process of proving something, without revealing any information about the thing to be proved.
 
 
-********Warning********
-This program is for educational purposes only. This implementation should not be used in real applications, and is just for education/demonstration, as it is insecure.
-
+********Warning: This program is for educational purposes only. This implementation should not be used in real applications, and is just for education/demonstration, as it is insecure.********
 References: 
 
 Applied Cryptography: Protocols, Algorithms and Source Code in C, 20th Anniversary Edition - Bruce Schneier
