@@ -17,13 +17,14 @@ Although this is an Identification Protocol, this implementation is used to prov
 Specifics about the Program:
 This program was developed using Anaconda, and in the Spyder application, running Python 3.9. You may need to install several libraries, being the time, pandas, and random libraries.
 
-There are four (4) scripts:
+There are five (5) scripts:
   Start.py: Run this program first.
   TrustedThirdParty.py: Performs the operation of the Trusted Third Party.
   PersonA.py: Runs the program of the prover.
   PersonB.py: Runs the program of the verifier.
+  SharedMethods.py: Contains several methods, which the other scripts use, to execute the functionality.
 
-The scripts need to be run in different consoles at the same time. The individual scripts communicate with each other through CSV files. When data is ready to be transferred to another script, a CSV file is made, containing the data. Other approaches were considered, such as using Environment variables, and Importing the variables from within the code. These approaches were not successful, and so the CSV approach was used.
+The scripts need to be run in different consoles at the same time. The individual scripts communicate with each other through CSV files. When data is ready to be transferred to another script, a CSV file is created, containing the data. Other approaches were considered, such as using environment variables, and importing the variables from within the code. These approaches were not successful, and so the CSV approach was used.
 
 There are two main sections in the Prover and Verifier scripts, being the Setup phase, and the Proving phase, which is a series of Handshakes that contain small amounts of the data. In the Setup phase, the RSA public and private keys (private key is the Secret in this implementation) remain the same, but the variables that are used in the Proving phase are random.
 
